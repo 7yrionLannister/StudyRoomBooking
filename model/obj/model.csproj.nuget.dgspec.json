@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\source\\repos\\ui\\model\\model.csproj": {}
+    "D:\\Luis Felipe\\Documents\\VisualStudioWorkSpace\\StudyRoomBooking\\model\\model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\source\\repos\\ui\\model\\model.csproj": {
+    "D:\\Luis Felipe\\Documents\\VisualStudioWorkSpace\\StudyRoomBooking\\model\\model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\ui\\model\\model.csproj",
+        "projectUniqueName": "D:\\Luis Felipe\\Documents\\VisualStudioWorkSpace\\StudyRoomBooking\\model\\model.csproj",
         "projectName": "model",
-        "projectPath": "C:\\Users\\Daniel\\source\\repos\\ui\\model\\model.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\source\\repos\\ui\\model\\obj\\",
+        "projectPath": "D:\\Luis Felipe\\Documents\\VisualStudioWorkSpace\\StudyRoomBooking\\model\\model.csproj",
+        "packagesPath": "C:\\Users\\Luis Felipe\\.nuget\\packages\\",
+        "outputPath": "D:\\Luis Felipe\\Documents\\VisualStudioWorkSpace\\StudyRoomBooking\\model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Luis Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
