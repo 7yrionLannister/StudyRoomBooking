@@ -4,13 +4,23 @@ using System.Text;
 
 namespace model
 {
-	public class DataManager{
+	public class Booking{
 
 		private string name;
 		private string code;
 		private string room;
 		private TimeSpan startTime;
 		private TimeSpan endTime;
+
+		public Booking(string name, string code, string room, TimeSpan startTime, TimeSpan endTime) {
+
+			this.name = name;
+			this.code = code;
+			this.room = room;
+			this.startTime = startTime;
+			this.endTime = endTime;
+
+		}
 
 		public string Name {
 
