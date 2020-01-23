@@ -1,0 +1,9 @@
+C:\Users\Daniel\source\repos\ui\ui\bin\Debug\ui.exe.config
+C:\Users\Daniel\source\repos\ui\ui\bin\Debug\ui.exe
+C:\Users\Daniel\source\repos\ui\ui\bin\Debug\ui.pdb
+C:\Users\Daniel\source\repos\ui\ui\obj\Debug\ui.csprojAssemblyReference.cache
+C:\Users\Daniel\source\repos\ui\ui\obj\Debug\ui.Form1.resources
+C:\Users\Daniel\source\repos\ui\ui\obj\Debug\ui.Properties.Resources.resources
+C:\Users\Daniel\source\repos\ui\ui\obj\Debug\ui.csproj.GenerateResource.cache
+C:\Users\Daniel\source\repos\ui\ui\obj\Debug\ui.exe
+C:\Users\Daniel\source\repos\ui\ui\obj\Debug\ui.pdb
