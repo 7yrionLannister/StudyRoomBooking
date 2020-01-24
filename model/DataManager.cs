@@ -9,33 +9,26 @@ namespace model
     {
 
         private List<Booking> bookings;
-        private const string path = "Data/file.txt";
+        private const string PATH = "..\\..\\data\bookings.txt";
 
         public DataManager()
         {
-
             bookings = new List<Booking>();
-
         }
 
         public void writeInfo(string name, string code, string room, string startTime, string endTime)
         {
-            if (!File.Exists(path))
-            {
-                // Create a file to write to.
-                using (StreamWriter sw = File.CreateText(path))
-                {
-                    sw.WriteLine("Hello");
-                }
-            }
-
+            StreamWriter sw = new StreamWriter(PATH, !File.Exists(PATH));
+            Booking newBook = new Booking(name, code, room, startTime, endTime);
+            sw.WriteLine("{0};{1};{2};{3};{4}", name, code, room, startTime, endTime);
+            bookings.Add(newBook);
+            sw.Close();
 
         }
 
         public void readInfo()
         {
-
-            using (StreamReader sr = File.OpenText(path))
+            StreamReader sr = File.OpenText(PATH);
             {
                 string s;
                 while ((s = sr.ReadLine()) != null)
@@ -43,8 +36,6 @@ namespace model
                     Console.WriteLine(s);
                 }
             }
-
         }
-
     }
 }

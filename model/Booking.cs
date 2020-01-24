@@ -10,16 +10,16 @@ namespace model
 		private string name;
 		private string code;
 		private string room;
-		private TimeSpan startTime;
+		private string startTime;
+		private string endTime;
 
-		public Booking(string name, string code, string room, TimeSpan startTime)
+		public Booking(string name, string code, string room, string startTime, string endTime)
 		{
-
 			this.name = name;
 			this.code = code;
 			this.room = room;
 			this.startTime = startTime;
-
+			this.endTime = endTime;
 		}
 
 		public string Name
@@ -64,7 +64,7 @@ namespace model
 			}
 		}
 
-		public TimeSpan StartTime
+		public string StartTime
 		{
 
 			get
@@ -78,5 +78,18 @@ namespace model
 			}
 		}
 
+		public string EndTime
+		{
+
+			get
+			{
+				return endTime;
+			}
+
+			set
+			{
+				endTime = value;
+			}
+		}
 	}
 }
