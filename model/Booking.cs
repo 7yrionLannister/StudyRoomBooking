@@ -33,8 +33,8 @@ namespace model
 			}
 		}
 
-		public string Code
-		{
+		public string Code{
+			
 			get
 			{
 				return code;
@@ -46,8 +46,7 @@ namespace model
 			}
 		}
 
-		public string Room
-		{
+		public string Room{
 
 			get
 			{
@@ -60,8 +59,8 @@ namespace model
 			}
 		}
 
-		public TimeSpan StartTime
-		{
+		public TimeSpan StartTime{
+			
 			get
 			{
 				return startTime;
@@ -73,8 +72,8 @@ namespace model
 			}
 		}
 
-		public TimeSpan EndTime
-		{
+		public TimeSpan EndTime{
+
 			get
 			{
 				return endTime;

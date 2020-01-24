@@ -1,6 +1,6 @@
 ﻿namespace ui
 {
-    partial class Form1
+    partial class UserInterface
     {
         /// <summary>
         /// Variable del diseñador necesaria.
