@@ -4,37 +4,41 @@ using System.Text;
 
 namespace model
 {
-	public class Booking{
+	public class Booking
+	{
 
 		private string name;
 		private string code;
 		private string room;
 		private TimeSpan startTime;
-		private TimeSpan endTime;
 
-		public Booking(string name, string code, string room, TimeSpan startTime, TimeSpan endTime) {
+		public Booking(string name, string code, string room, TimeSpan startTime)
+		{
 
 			this.name = name;
 			this.code = code;
 			this.room = room;
 			this.startTime = startTime;
-			this.endTime = endTime;
 
 		}
 
-		public string Name {
+		public string Name
+		{
 
-			get {
+			get
+			{
 				return name;
 			}
 
-			set {
+			set
+			{
 				name = value;
 			}
 		}
 
-		public string Code{
-			
+		public string Code
+		{
+
 			get
 			{
 				return code;
@@ -46,7 +50,8 @@ namespace model
 			}
 		}
 
-		public string Room{
+		public string Room
+		{
 
 			get
 			{
@@ -59,8 +64,9 @@ namespace model
 			}
 		}
 
-		public TimeSpan StartTime{
-			
+		public TimeSpan StartTime
+		{
+
 			get
 			{
 				return startTime;
@@ -69,19 +75,6 @@ namespace model
 			set
 			{
 				startTime = value;
-			}
-		}
-
-		public TimeSpan EndTime{
-
-			get
-			{
-				return endTime;
-			}
-
-			set
-			{
-				endTime = value;
 			}
 		}
 

@@ -16,3 +16,4 @@ D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\ui\obj\Debug\ui.
 D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\ui\obj\Debug\ui.csproj.GenerateResource.cache
 D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\ui\obj\Debug\ui.exe
 D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\ui\obj\Debug\ui.pdb
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\bin\Debug\ui.exe
