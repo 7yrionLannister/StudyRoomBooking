@@ -16,15 +16,13 @@ namespace ui
     public partial class UserInterface : Form
     {
         private DataManager dm;
-        private Records records;
         public UserInterface()
         {
             InitializeComponent();
             string[] items = new string[] {"101-1E", "101-2E", "101-3E", "101-4E", "101-5E", "101-6E", "101-7E", "101-8E"};
             roomComboBox.Items.AddRange(items);
-            datePicker.MinDate = DateTime.Today; 
+            datePicker.MinDate = DateTime.Today;
             dm = new DataManager();
-            records = new Records();
          
         }
 
@@ -97,23 +95,37 @@ namespace ui
         {
             dm.readInfo();
 
-            string message = "\t\t*****SALAS DE ESTUDIO RESERVADAS*****\n\n\n";
-            message += "Room\tStudent\tCode\t\tFrom\t\t\tTo\n\n";
+            DataGridView dataGridView = createGridPane();
+
+            string room, name, code, from, to;
 
             for (int i = 0; i < dm.Bookings.Count; i++)
             {
-                message += dm.Bookings[i].Room + "\t" + dm.Bookings[i].Name + "\t" + dm.Bookings[i].Code + "\t" 
-                    + dm.Bookings[i].StartTime + "\t\t" + dm.Bookings[i].EndTime  + "\n";
-            }
+                room = dm.Bookings[i].Room;
+                name = dm.Bookings[i].Name;
+                code = dm.Bookings[i].Code;
+                from = dm.Bookings[i].StartTime;
+                to = dm.Bookings[i].EndTime;
+                dataGridView.Rows.Add(room, name, code, from, to);
 
-            //MessageBox.Show(message,"RESERVAS REGISTRADAS");
+            }
 
             Form form = new Form();
             form.Height = 500;
-            form.Width = 500;
+            form.Width = 560;
+
+            form.Controls.Add(dataGridView);
+            form.ShowDialog();
+
+        }
+
+        private DataGridView createGridPane() 
+        {
+
             DataGridView dataGridView = new DataGridView();
-            dataGridView.Width = 500;
-            
+            dataGridView.Width = 545;
+            dataGridView.Height = 500;
+
             DataGridViewTextBoxColumn roomCell = new DataGridViewTextBoxColumn();
             roomCell.HeaderText = "Room";
             roomCell.Width = 100;
@@ -144,9 +156,9 @@ namespace ui
             dataGridView.Columns.Add(codeCell);
             dataGridView.Columns.Add(fromCell);
             dataGridView.Columns.Add(toCell);
-           
-            form.Controls.Add(dataGridView);
-            form.ShowDialog();
+
+            return dataGridView;
+
         }
 
         private void nameTextBox_TextChanged(object sender, EventArgs e)

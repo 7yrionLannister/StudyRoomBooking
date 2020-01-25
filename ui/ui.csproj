@@ -46,9 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Records.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="UserInterface.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,9 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Records.resx">
-      <DependentUpon>Records.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UserInterface.resx">
       <DependentUpon>UserInterface.cs</DependentUpon>
     </EmbeddedResource>
