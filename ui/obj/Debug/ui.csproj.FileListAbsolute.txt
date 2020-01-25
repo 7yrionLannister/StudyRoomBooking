@@ -42,3 +42,4 @@ D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking
 D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.csproj.CopyComplete
 D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.exe
 D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.pdb
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.Records.resources

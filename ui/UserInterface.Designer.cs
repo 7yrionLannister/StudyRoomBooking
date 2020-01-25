@@ -45,10 +45,12 @@
             this.fromMinute = new System.Windows.Forms.NumericUpDown();
             this.toMinute = new System.Windows.Forms.NumericUpDown();
             this.toHour = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.fromHour)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fromMinute)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toMinute)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toHour)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -65,7 +67,7 @@
             // 
             this.nameTextBox.Location = new System.Drawing.Point(83, 56);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.nameTextBox.Size = new System.Drawing.Size(167, 20);
             this.nameTextBox.TabIndex = 1;
             this.nameTextBox.TextChanged += new System.EventHandler(this.nameTextBox_TextChanged);
             // 
@@ -82,7 +84,7 @@
             // 
             this.codeTextBox.Location = new System.Drawing.Point(83, 97);
             this.codeTextBox.Name = "codeTextBox";
-            this.codeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.codeTextBox.Size = new System.Drawing.Size(167, 20);
             this.codeTextBox.TabIndex = 3;
             // 
             // label3
@@ -100,7 +102,7 @@
             this.roomComboBox.FormattingEnabled = true;
             this.roomComboBox.Location = new System.Drawing.Point(82, 138);
             this.roomComboBox.Name = "roomComboBox";
-            this.roomComboBox.Size = new System.Drawing.Size(100, 21);
+            this.roomComboBox.Size = new System.Drawing.Size(168, 21);
             this.roomComboBox.TabIndex = 5;
             // 
             // datePicker
@@ -220,11 +222,22 @@
             this.toHour.Size = new System.Drawing.Size(38, 20);
             this.toHour.TabIndex = 16;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ui.Properties.Resources.Captura;
+            this.pictureBox1.Location = new System.Drawing.Point(332, 56);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(460, 165);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            // 
             // UserInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 305);
+            this.ClientSize = new System.Drawing.Size(804, 309);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.toMinute);
             this.Controls.Add(this.toHour);
             this.Controls.Add(this.fromMinute);
@@ -249,6 +262,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.fromMinute)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toMinute)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toHour)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -273,6 +287,7 @@
         private System.Windows.Forms.NumericUpDown fromMinute;
         private System.Windows.Forms.NumericUpDown toMinute;
         private System.Windows.Forms.NumericUpDown toHour;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -16,13 +16,15 @@ namespace ui
     public partial class UserInterface : Form
     {
         private DataManager dm;
+        private Records records;
         public UserInterface()
         {
             InitializeComponent();
             string[] items = new string[] {"101-1E", "101-2E", "101-3E", "101-4E", "101-5E", "101-6E", "101-7E", "101-8E"};
             roomComboBox.Items.AddRange(items);
-            datePicker.MinDate = DateTime.Today;
+            datePicker.MinDate = DateTime.Today; 
             dm = new DataManager();
+            records = new Records();
          
         }
 
@@ -96,20 +98,68 @@ namespace ui
             dm.readInfo();
 
             string message = "\t\t*****SALAS DE ESTUDIO RESERVADAS*****\n\n\n";
-            message += "Room\tStudent\tCode\t\tFrom\t\tTo\n\n";
+            message += "Room\tStudent\tCode\t\tFrom\t\t\tTo\n\n";
 
             for (int i = 0; i < dm.Bookings.Count; i++)
             {
                 message += dm.Bookings[i].Room + "\t" + dm.Bookings[i].Name + "\t" + dm.Bookings[i].Code + "\t" 
-                    + dm.Bookings[i].StartTime + "\t" + dm.Bookings[i].EndTime  + "\n";
+                    + dm.Bookings[i].StartTime + "\t\t" + dm.Bookings[i].EndTime  + "\n";
             }
 
+            //MessageBox.Show(message,"RESERVAS REGISTRADAS");
 
-            MessageBox.Show(message,"RESERVAS REGISTRADAS");
+            Form form = new Form();
+            form.Height = 500;
+            form.Width = 500;
+            DataGridView dataGridView = new DataGridView();
+            dataGridView.Width = 500;
+            
+            DataGridViewTextBoxColumn roomCell = new DataGridViewTextBoxColumn();
+            roomCell.HeaderText = "Room";
+            roomCell.Width = 100;
+            roomCell.ReadOnly = true;
 
+            DataGridViewTextBoxColumn nameCell = new DataGridViewTextBoxColumn();
+            nameCell.HeaderText = "Name";
+            nameCell.Width = 100;
+            nameCell.ReadOnly = true;
+
+            DataGridViewTextBoxColumn codeCell = new DataGridViewTextBoxColumn();
+            codeCell.HeaderText = "Code";
+            codeCell.Width = 100;
+            codeCell.ReadOnly = true;
+
+            DataGridViewTextBoxColumn fromCell = new DataGridViewTextBoxColumn();
+            fromCell.HeaderText = "From";
+            fromCell.Width = 100;
+            fromCell.ReadOnly = true;
+
+            DataGridViewTextBoxColumn toCell = new DataGridViewTextBoxColumn();
+            toCell.HeaderText = "To";
+            toCell.Width = 100;
+            toCell.ReadOnly = true;
+
+            dataGridView.Columns.Add(roomCell);
+            dataGridView.Columns.Add(nameCell);
+            dataGridView.Columns.Add(codeCell);
+            dataGridView.Columns.Add(fromCell);
+            dataGridView.Columns.Add(toCell);
+           
+            form.Controls.Add(dataGridView);
+            form.ShowDialog();
         }
 
         private void nameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
