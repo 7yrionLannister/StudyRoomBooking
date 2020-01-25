@@ -29,3 +29,16 @@ D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabaj
 D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.csproj.CopyComplete
 D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.exe
 D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.pdb
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\bin\Debug\ui.exe.config
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\bin\Debug\ui.exe
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\bin\Debug\ui.pdb
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\bin\Debug\model.exe
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\bin\Debug\model.pdb
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\bin\Debug\model.exe.config
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.csprojAssemblyReference.cache
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.UserInterface.resources
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.Properties.Resources.resources
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.csproj.GenerateResource.cache
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.csproj.CopyComplete
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.exe
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\ui\obj\Debug\ui.pdb

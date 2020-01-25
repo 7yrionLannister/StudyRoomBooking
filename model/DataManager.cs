@@ -16,6 +16,15 @@ namespace model
             bookings = new List<Booking>();
         }
 
+        public List<Booking> Bookings 
+        {
+            get {
+
+                return bookings;
+            
+            }
+        }
+
         public void writeInfo(string name, string code, string room, string startTime, string endTime)
         {
             StreamWriter sw = new StreamWriter(PATH, File.Exists(PATH));

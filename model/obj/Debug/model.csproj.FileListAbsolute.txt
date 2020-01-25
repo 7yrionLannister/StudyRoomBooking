@@ -4,3 +4,9 @@ D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabaj
 D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\model\obj\Debug\model.csprojAssemblyReference.cache
 D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\model\obj\Debug\model.exe
 D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\model\obj\Debug\model.pdb
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\model\bin\Debug\model.exe.config
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\model\bin\Debug\model.exe
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\model\bin\Debug\model.pdb
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\model\obj\Debug\model.csprojAssemblyReference.cache
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\model\obj\Debug\model.exe
+D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\StudyRoomBooking\model\obj\Debug\model.pdb
