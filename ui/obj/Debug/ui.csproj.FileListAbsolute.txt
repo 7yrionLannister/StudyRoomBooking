@@ -17,3 +17,15 @@ D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\ui\obj\Debug\ui.
 D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\ui\obj\Debug\ui.exe
 D:\Luis Felipe\Documents\VisualStudioWorkSpace\StudyRoomBooking\ui\obj\Debug\ui.pdb
 D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\bin\Debug\ui.exe
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\bin\Debug\ui.exe.config
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\bin\Debug\ui.pdb
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\bin\Debug\model.exe
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\bin\Debug\model.pdb
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\bin\Debug\model.exe.config
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.csprojAssemblyReference.cache
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.UserInterface.resources
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.Properties.Resources.resources
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.csproj.GenerateResource.cache
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.csproj.CopyComplete
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.exe
+D:\OneDrive\OneDrive - Universidad Icesi\Icesi\Quinto semestre\integrador\Trabajos\StudyRoomBooking\ui\obj\Debug\ui.pdb

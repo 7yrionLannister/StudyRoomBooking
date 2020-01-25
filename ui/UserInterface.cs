@@ -59,19 +59,22 @@ namespace ui
         {
             string name = nameTextBox.Text;
             string code = codeTextBox.Text;
-            string room = (string)roomComboBox.SelectedValue;
+            string room = (string)roomComboBox.SelectedItem;
             int fHour = Convert.ToInt32(fromHour.Value);
             int tHour = Convert.ToInt32(toHour.Value);
             int fMin = Convert.ToInt32(fromMinute.Value);
             int tMin = Convert.ToInt32(toMinute.Value);
-
             if (name.Length > 0 && code.Length > 0 && room != null
-                && ((fHour < tHour) || (fHour == tHour && fMin < tMin))) {
+                && ((fHour < tHour) || (fHour == tHour && fMin < tMin)))
+            {
                 DateTime dt = datePicker.Value;
-                string date = dt.Day + "/" + dt.Month + "/" + dt.Year;
-                string startTime = date + ", " + fHour + ":" + fMin;
-                string endTime = date + ", " + tHour + ":" + tMin;
+                string date = string.Format("{0:D2}/{1:D2}/{2}", dt.Day, dt.Month, dt.Year);
+                string startTime = date + ", " + string.Format("{0:D2}:{1:D2}", fHour, fMin);
+                string endTime = date + ", " + string.Format("{0:D2}:{1:D2}", tHour, tMin);
                 dm.writeInfo(name, code, room, startTime, endTime);
+            }
+            else { 
+                //Ventana emergente pidiendo al usuario corregir los campos erroneos
             }
         }
 
